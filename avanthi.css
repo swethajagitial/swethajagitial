@@ -10,6 +10,7 @@ li a{
     display :block;
     padding:18px.150px;
     text-decoration: none;
+    position: fixed;
     top:0;
     width:100%
 }

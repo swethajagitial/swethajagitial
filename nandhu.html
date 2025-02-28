@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: rgb(133, 66, 79);
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+        #header2{
+            color:blueviolet;
+        }
+        h1{
+            color:brown
+        }
+        h2{
+            color:blue
+        }
+    </style>
+</head>
+<body>
+    
+    <script>
+        document.write('<h1>my name is <mark>Nandhana</mark> i have to write internal &external javascript</h1>')
+        document.write( '<h2>internal <b>javascript</b></h2>');
+       
+       </script>
+       <h2 id="header2"></h2>
+       <script>
+        document.getElementById('header2').innerHTML='external javascript';
+    var a=10;
+    var b='sruthi';c=true;d=['ramya',80,true];
+    var student_1={
+        name:'sandhya',
+        class:9,
+        resulty:true,
+    };
+    //datatypes
+    document.write('the value of a= '+a+'<br>');
+    document.write('the student name was '+b+'<br>');
+    document.write(typeof d+'<br>');
+    document.write(typeof c+'<br>');
+    document.write(typeof a+'<br>');
+    document.write(typeof b+'<br>');
+    document.write(typeof student_1+'<br>');
+    //operaters
+    //Arithematic operaters
+var x=30;y=40;
+document.write(x+y+"<br>")
+document.write(x-y+"<br>")
+document.write(x*y+"<br>")
+document.write(x/y+"<br>")
+document.write(x%y+"<br>")
+  x++;
+  document.write(x+"<br>")
+  x--;
+  document.write(x+"<br>")
+  //assignment operaters
+x+=y;
+document.write(x+'<br>')
+x-=y;
+document.write(x+'<br>')
+x*=y;
+document.write(x+'<br>')
+x/=y;
+//x=x/y;
+document.write(x+'<br>')
+x%=y;
+document.write(x+'<br>')
+//comparison operaters
+var A=10; B='10';
+result=A==B;
+document.write(result+'<br>')
+result=A===B;
+document.write(result+'<br>')
+result=A!=B;
+document.write(result+'<br>')
+result=A!==B;
+document.write(result+'<br>')
+result=A<B;
+document.write(result+'<br>')
+result=A<=B;
+document.write(result+'<br>')
+result=A>B;
+document.write(result+'<br>')
+result=A>=B;
+document.write(result+'<br>')
+//logical operaters
+var y=100;
+result=y>50&&y>200;
+document.write(result+'<br>')
+result=y>50&&y<200;
+document.write(result+'<br>')
+result=y>50||y>200;
+document.write(result+'<br>')
+result=!(y==200);
+document.write(result+'<br>')
+//string operaters
+var e='nandhana';f='patel';
+document.write(e+f+'<br>') 
+    </script>
+</body>
+</html>

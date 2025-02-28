@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript conditional statements</title>
+    <style>
+        marquee{
+            font-style: italic;
+            font-size: 25px;
+            color:chartreuse;
+            scroll-behavior: smooth;
+        }
+        body{
+            background-color: rgb(221, 202, 240);
+            background-image:url(https://th.bing.com/th/id/OIP.KjRr_B6bwZNKAATm1R1NmgHaDX?rs=1&pid=ImgDetMain) ;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+   <script>
+    var amount=prompt('plese enter your withdraw amount..!')
+    if(amount>=20000){
+        alert('you hava only 20000 in your account you have to maintain minimum balance in your account')
+    }
+    else if(amount<=2000){
+        alert('please maintain minimum balance in your account')
+    }
+    else{
+        document.write('<marquee>*****please withdraw your money after received your card*****</marquee>')
+    }
+   </script> 
+</body>
+</html>

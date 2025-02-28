@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> javascript marks result</title>
+    <style>
+        body{
+            text-align: center;
+            background-image: url(https://th.bing.com/th/id/OIP.I8vfbrv8Tn1w8qsiwR4f_QHaHa?rs=1&pid=ImgDetMain);
+            background-repeat: no-repeat;
+            background-size: cover;
+           
+        }
+        marquee{
+            color:blue;
+            font-size:40px;
+            font-style: oblique;
+        
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var marks=prompt('please enter your marks')
+        if(marks<=28){
+            alert(' betterluck next time you failed the examination')
+        }
+        else if(marks<=50){
+            alert('you got 3rd grade.... please improve your marks')
+           
+        }
+        else if(marks<=75){
+             alert('you got 2nd grade in your examination')   
+            }
+            else if(marks<=100){
+                alert('congatulations you got 1st grade your exmination')
+            }
+            else{
+                document.write('<marquee>***please enter your marks***</marquee>')
+            }
+    </script>
+</body>
+</html>
